@@ -1,0 +1,55 @@
+.box {
+    /* width: 450px;
+    height: 550px; */
+    border: 2px solid #f1f1f1;
+    perspective: 1000px;
+    display: inline-block;
+    /* justify-content: center; */
+}
+
+.Inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+.box:hover .Inner {
+    transform: rotateY(180deg);
+}
+
+.Front,
+.Back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.Front {
+    color: black;
+}
+
+.Back {
+    background-image: linear-gradient(to top right, rgb(92, 204, 245), rgb(28, 72, 249), rgb(92, 204, 245));
+    color: whitesmoke;
+    transform: rotateY(180deg);
+    padding: 50px 10px;
+}
+
+.Back table {
+    width: 100%;
+}
+
+.Back table th,
+.Back table td {
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.Back table th {
+    width: 30%;
+}

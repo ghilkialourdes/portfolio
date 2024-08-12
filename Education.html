@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Education</title>
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="tab.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <style>
+        table {
+            border-spacing: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img id="photo" src="Photo.jpeg" alt="Hilkia Lourdes">
+            <div>HILKIA LOURDES G<br>ghilkialourdes@gmail.com<br>8946050196, 8300338776</div>
+        </a>
+        <ul class="header-container">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Education.html" class="active">Education</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="WorkAndInternship.html">Work/Internship</a></li>
+            <li><a href="Co-curricular.html">Co-curricular</a></li>
+        </ul>
+    </header>
+    <section id="pageContent">
+        <div class="tab">
+            <button class="tablinks" onclick="openGrade(event, 'UG')" id="defaultOpen">B.E CSE</button>
+            <button class="tablinks" onclick="openGrade(event, 'GradeXII')">Grade XII</button>
+            <button class="tablinks" onclick="openGrade(event, 'GradeXI')">Grade XI</button>
+            <button class="tablinks" onclick="openGrade(event, 'GradeX')">Grade X</button>
+        </div>
+
+        <div id="UG" class="tabcontent">
+            <h2>Bachelor of Engineering<br>Computer Science and Engineering</h2>
+            <h3>Name of the College : </h3>
+            <h2>Sethu Institute of Technology, Virudhunagar - 626115<br><img src="collegeLOGO.png" alt="College"></h2>
+            <h3>Cumulative Grade Point Average:</h3>
+            <h2>9.133</h2>
+            <canvas id="myChart"></canvas>
+            <table>
+                <tr>
+                    <th colspan="6"> Semester I </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UEN101 </td>
+                    <td> English for Technical Communication </td>
+                    <td> 2 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 16 </td>
+                </tr>
+                <tr>
+                    <td> 19UMA102 </td>
+                    <td> Engineering Mathematics - I </td>
+                    <td> 4 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 32 </td>
+                </tr>
+                <tr>
+                    <td> 19UPH103 </td>
+                    <td> Engineering Physics </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCY105 </td>
+                    <td> Applied Chemistry </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS108 </td>
+                    <td> Problem Solving and Python Programming </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UME109 </td>
+                    <td> Engineering Graphics </td>
+                    <td> 4 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 40 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM131 </td>
+                    <td> Induction Programme </td>
+                    <td> 0 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGS113 </td>
+                    <td> Basic Sciences Laboratory </td>
+                    <td> 1 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 10 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS112 </td>
+                    <td> Engineering Fundamentals Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS110 </td>
+                    <td> Problem Solving and Python Programming Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 9.217 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.217 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester II </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UEN201 </td>
+                    <td> Communication Skills for Professional </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UMA203 </td>
+                    <td> Differential Equations and Complex Analysis </td>
+                    <td> 4 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 40 </td>
+                </tr>
+                <tr>
+                    <td> 19UCY204 </td>
+                    <td> Environmental Science </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UPH205 </td>
+                    <td> Physics for Information Science </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS205 </td>
+                    <td> Introduction to Computer Science and Engineering </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS206 </td>
+                    <td> Programming Using C </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UGS210 </td>
+                    <td> Energy Science and Environmental Science Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS211 </td>
+                    <td> C Programming Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 10 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.582 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester III </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UCS302 </td>
+                    <td> Data Structure </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS310 </td>
+                    <td> Operating Systems Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS309 </td>
+                    <td> Java Programming Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS308 </td>
+                    <td> Data Structure Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS307 </td>
+                    <td> Seminar </td>
+                    <td> 1 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS306 </td>
+                    <td> Computer Organization </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS305 </td>
+                    <td> Operating Systems </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS304 </td>
+                    <td> Object Oriented Programming using Java </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS303 </td>
+                    <td> Digital Electronics </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UMA322 </td>
+                    <td> Probability, Queuing Theroy and Numerical Methods </td>
+                    <td> 4 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 40 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 8.979 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.368 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester IV </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UCS402 </td>
+                    <td> Computer Communications and Networks </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM431 </td>
+                    <td> Gender Equality </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM432 </td>
+                    <td> Basics of Biology for Engineers </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UEC426 </td>
+                    <td> Microprocessors and Microcontrollers Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UEC425 </td>
+                    <td> Microprocessors and Microcontrollers </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS861 </td>
+                    <td> R-Programming </td>
+                    <td> 1 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 10 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS408 </td>
+                    <td> Database System Concepts Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS407 </td>
+                    <td> Computer Communications and Networks Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS404 </td>
+                    <td> Database System Concepts </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS403 </td>
+                    <td> Design and Analysis of Algorithms </td>
+                    <td> 4 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 40 </td>
+                </tr>
+                <tr>
+                    <td> 19UMA421 </td>
+                    <td> Transforms and discrete Mathematics </td>
+                    <td> 4 </td>
+                    <td> A+ </td>
+                    <td> 8 </td>
+                    <td> 32 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 9.511 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.403 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester V </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UCS501 </td>
+                    <td> Internet and Web Technology (Integrated Course) </td>
+                    <td> 3.5 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 28 </td>
+                </tr>
+                <tr>
+                    <td> 19UGS531 </td>
+                    <td> Reasoning and Aptitude </td>
+                    <td> 1 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                </tr>
+                <tr>
+                    <td> 19UEE975 </td>
+                    <td> Principles of Robotics </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS919 </td>
+                    <td> Cyber Security </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS865 </td>
+                    <td> Word Press </td>
+                    <td> 1 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 8 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS507 </td>
+                    <td> Creative Thinking and Innovation </td>
+                    <td> 1 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 10 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS504 </td>
+                    <td> Theory of Computation </td>
+                    <td> 4 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 36 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS503 </td>
+                    <td> Mobile Application Design and Development (Integrated Course) </td>
+                    <td> 3.5 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 31.5 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS502 </td>
+                    <td> Software Engineering Practices </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UGS532 </td>
+                    <td> Soft Skills Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 8.9183 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.3 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester VI </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UCS601 </td>
+                    <td> Principles of Compiler Design </td>
+                    <td> 4 </td>
+                    <td> B+ </td>
+                    <td> 7 </td>
+                    <td> 28 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS602 </td>
+                    <td> Cryptography and Network Security </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS603 </td>
+                    <td> Artificial Intelligence and Machine Learning </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS607 </td>
+                    <td> Product Development Project </td>
+                    <td> 4 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 40 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS608 </td>
+                    <td> Artificial Intelligence and Machine Learning Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS864 </td>
+                    <td> Ruby on Rails </td>
+                    <td> 1 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS909 </td>
+                    <td> Data Mining </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS917 </td>
+                    <td> Human Computer Interaction </td>
+                    <td> 3 </td>
+                    <td> B+ </td>
+                    <td> 7 </td>
+                    <td> 21 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM631 </td>
+                    <td> Indian Constitution </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGS633 </td>
+                    <td> Interpersonal Skills Development Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 13.5 </td>
+                </tr>
+                <tr>
+                    <td> 19UME972 </td>
+                    <td> Industrial Safety and Engineering </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 8.574 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.162 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester VII </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UME701 </td>
+                    <td> Project Management and Finance </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS702 </td>
+                    <td> Cloud Computing </td>
+                    <td> 3 </td>
+                    <td> B+ </td>
+                    <td> 7 </td>
+                    <td> 21 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS703 </td>
+                    <td> Building Internet of Things </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UBM973 </td>
+                    <td> Forensic Science in Health Care </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS707 </td>
+                    <td> Summer Internship </td>
+                    <td> 1 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 9 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS708 </td>
+                    <td> Cloud Computing Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS709 </td>
+                    <td> Internet of Things Laboratory </td>
+                    <td> 1.5 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 15 </td>
+                </tr>
+                <tr>
+                    <td> 19UCS933 </td>
+                    <td> E-Learning Concepts </td>
+                    <td> 3 </td>
+                    <td> A+ </td>
+                    <td> 9 </td>
+                    <td> 27 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM733 </td>
+                    <td> Skills Development </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM732 </td>
+                    <td> Personality and Social Development </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGM731 </td>
+                    <td> Professional Ethics and Human Values </td>
+                    <td> 0 </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> 0 </td>
+                </tr>
+                <tr>
+                    <td> 19UGE711 </td>
+                    <td> Professional readiness for Innovation; Employability; and Entrepreneurship </td>
+                    <td> 3 </td>
+                    <td> A </td>
+                    <td> 8 </td>
+                    <td> 24 </td>
+                </tr>
+                <tr>
+                    <td> 19U3N054 </td>
+                    <td> Programming in Java - NPTEL </td>
+                    <td> 3 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 30 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 8.52 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.065 </th>
+                </tr>
+                <tr>
+                    <th colspan="6"> Semester VIII </th>
+                </tr>
+                <tr>
+                    <th> Subject Code </th>
+                    <th> Subject Name </th>
+                    <th> Credit </th>
+                    <th> Grade </th>
+                    <th> Point </th>
+                    <th> Score </th>
+                </tr>
+                <tr>
+                    <td> 19UCS801 </td>
+                    <td> Project Work </td>
+                    <td> 8 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 80 </td>
+                </tr>
+                <tr>
+                    <td> 19U1N025 </td>
+                    <td> Python for Data Science - NPTEL </td>
+                    <td> 1 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 10 </td>
+                </tr>
+                <tr>
+                    <td> 19U2N018 </td>
+                    <td> Programming in C++ - NPTEL </td>
+                    <td> 2 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 20 </td>
+                </tr>
+                <tr>
+                    <td> 19U2T001 </td>
+                    <td> Internship/Industrial Training - I </td>
+                    <td> 2 </td>
+                    <td> O </td>
+                    <td> 10 </td>
+                    <td> 20 </td>
+                </tr>
+                <tr>
+                    <th colspan="2"> GPA </th>
+                    <th colspan="4"> 10 </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> CGPA </th>
+                    <th colspan="4"> 9.133 </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="GradeXII" class="tabcontent">
+            <h2>Grade XII</h2>
+            <h3>Name of the School : </h3>
+            <h2>St. Joseph's Matricaulation Higher Secondary School, Madurai - 625009<img src="SchoolLOGO.png"
+                    alt="School"></h2>
+            <h3>Board of Education:</h3>
+            <h2>State Board of Tamil Nadu</h2>
+            <h3>Score:</h3>
+            <h2>71.2%</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                </tr>
+                <tr>
+                    <td>Tamil</td>
+                    <td>67</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>83</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>53</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>72</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>89</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <th>427</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="GradeXI" class="tabcontent">
+            <h2>Grade XI</h2>
+            <h3>Name of the School : </h3>
+            <h2>St. Joseph's Matricaulation Higher Secondary School, Madurai - 625009<img src="SchoolLOGO.png"
+                    alt="School"></h2>
+            <h3>Board of Education:</h3>
+            <h2>State Board of Tamil Nadu</h2>
+            <h3>Score</h3>
+            <h2>73.7%</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                </tr>
+                <tr>
+                    <td>Tamil</td>
+                    <td>83</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>86</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>59</td>
+                </tr>
+                <tr>
+                    <td>Physics</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td>69</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>77</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <th>442</th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="GradeX" class="tabcontent">
+            <h2>Grade X</h2>
+            <h3>Name of the School : </h3>
+            <h2>St. Joseph's Matricaulation Higher Secondary School, Madurai - 625009<img src="SchoolLOGO.png" alt="School"></h2>
+            <h3>Board of Education:</h3>
+            <h2>State Board of Tamil Nadu</h2>
+            <h3>Score</h3>
+            <h2>91.2%</h2>
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Mark</th>
+                </tr>
+                <tr>
+                    <td>Tamil</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>76</td>
+                </tr>
+                <tr>
+                    <td>Science</td>
+                    <td>92</td>
+                </tr>
+                <tr>
+                    <td>Social Science</td>
+                    <td>96</td>
+                </tr>
+                <tr>
+                    <th>Total</th>
+                    <th>456</th>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script>
+        let screenWidth = screen.width;
+        var pageContent = document.getElementById('pageContent');
+        pageContent.style.width = screenWidth + 'px';
+        const tabcontentWidth = (75 * screenWidth) / 100 + 'px';
+        const tabWidth = (20 * screenWidth) / 100 + 'px';
+        console.log(screenWidth, tabcontentWidth, tabWidth);
+        var tab, i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.width = tabWidth;
+        }
+        function openGrade(event, grade) {
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                tabcontent[i].style.width = tabcontentWidth;
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(grade).style.display = "block";
+            event.currentTarget.className += " active";
+            if (grade === "UG") {
+                UGMarks();
+            }
+        }
+
+        function UGMarks() {
+            const xValues = ["Semester 1","Semester 2","Semester 3","Semester 4","Semester 5","Semester 6","Semester 7","Semester 8"];
+            new Chart("myChart", {
+                type: "line",
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        data: [9.217391304, 9.586, 9.368, 9.403, 9.3, 9.162, 9.0659, 9.133],
+                        borderColor: "purple",
+                        fill: false,
+                        label:"CGPA"
+                    },
+                    {
+                        data: [9.217391304, 10, 8.979591837, 9.511111111, 8.918367347, 8.574074074, 8.52, 10],
+                        borderColor: "palegreen",
+                        fill: true,
+                        label: "GPA"
+                    }]
+                },
+                options: {
+                    legend: { display: false },
+                    scales: {
+                        yAxes: [{
+                            ticks: { min: 0, max: 10 },
+                            title: 'Points',
+                        }],
+                        xAxes: [{
+                            title: 'Semesters'
+                        }],
+                    },
+                    title: {
+                        display: true,
+                        text: 'CGPA & GPA',
+                        fontSize: 20
+                    }
+                }
+            });
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Co-cirricular</title>
+    <link rel="stylesheet" href="homeStyle.css">
+    <link rel="stylesheet" href="flipcontent.css">
+    <style>
+        .subPageContent {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img id="photo" src="Photo.jpeg" alt="Hilkia Lourdes">
+            <div>HILKIA LOURDES G<br>ghilkialourdes@gmail.com<br>8946050196, 8300338776</div>
+        </a>
+        <ul class="header-container">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Project.html">Project</a></li>
+            <li><a href="WorkAndInternship.html">Work/Internship</a></li>
+            <li><a href="Co-curricular.html" class="active">Co-curricular</a></li>
+        </ul>
+    </header>
+    <p id="pageContent"></p>
+    <script>
+        console.log("Script running");
+        var pageContent = document.querySelector('#pageContent');
+        var course;
+        var image;
+        var startDate;
+        var endDate;
+        var duration;
+        var institute;
+        var credits;
+        var score;
+        var instructor;
+        var certificateWidth;
+        var certificateHeight;
+        var learning_path;
+        var course_link;
+
+        //JSON
+        var oracle = [
+            {
+                "Course": "Global HR Explorer<br>Oracle MyLearn",
+                "Image": "Global HR Explorer 1.png",
+                "Course_Link": "https://mylearn.oracle.com/ou/learning-path/global-hr-explorer/101009",
+                "Learning_Path": "Global Human Resources Overview <br>Employee Tasks <br>Manager Tasks <br>HR Specialist Tasks <br>Global Human Resources Additional Features ",
+                "width": "400px",
+                "height": "400px"
+            },{
+                "Course": "Absence Management Explorer Explorer<br>Oracle MyLearn",
+                "Image": "Absence Management Explorer.png",
+                "Course_Link": "https://mylearn.oracle.com/ou/learning-path/absence-management-explorer/98215",
+                "Learning_Path": "An Overview of MySQL<br>MySQL Client/Server Model<br>Using the MySQL Command-Line Tool<br>Using MySQL Workbench<br>Basic Queries in MySQL<br>Complex Queries in MySQL<br>Troubleshooting in MySQL",
+                "width": "400px",
+                "height": "400px"
+            },{
+                "Course": "MySQL Explorer<br>Oracle MyLearn",
+                "Image": "MySQL Explorer.png",
+                "Course_Link": "https://mylearn.oracle.com/ou/learning-path/mysql-explorer/79674",
+                "Learning_Path": "An Overview of MySQL<br>MySQL Client/Server Model<br>Using the MySQL Command-Line Tool<br>Using MySQL Workbench<br>Basic Queries in MySQL<br>Complex Queries in MySQL<br>Troubleshooting in MySQL",
+                "width": "400px",
+                "height": "400px"
+            }
+        ]
+        var oracleLength = Object.keys(oracle).length;
+        //JSON Parsing
+        var subPageContent = document.createElement('p');
+        subPageContent.setAttribute('class', 'subPageContent');
+        oracle.forEach(oracle => {
+            course = oracle.Course;
+            image = oracle.Image;
+            course_link = oracle.Course_Link;
+            learning_path = oracle.Learning_Path;
+            certificateWidth = oracle.width;
+            certificateHeight = oracle.height;
+
+            //creating div
+            var division = document.createElement('div');
+            //setting class attribute  for div tag
+            division.setAttribute('class', 'box');
+            division.style.width = certificateWidth;
+            division.style.height = certificateHeight;
+            // div's oracle
+            division.innerHTML = `
+                <div class="Inner">
+                    <div class="Front">
+                        <img src="${image}" alt="${course}" width="${certificateWidth}" height="${certificateHeight}">
+                    </div>
+                    <div class="Back">
+                        <h2>${course}</h2>
+                        <a href="${course_link}" target="_blank"><img id="photo" src="Oracle.png" alt="Oracle" width ="50px" height="3opx"></a>
+                        <table>
+                            <tr>
+                                <th>Learning Path</th>
+                                <td>:</td>
+                                <td>${learning_path}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>`
+            //appending div
+            subPageContent.appendChild(division);
+        })
+        pageContent.appendChild(subPageContent);
+
+        //JSON
+        var udemy = [
+            {
+                "Course": "2021 Python Programming From A-Z Beginner To Expert Course<br>UDEMY",
+                "Image": "2021_Python_Programming_From_A-Z_Beginner_To_Expert_Course.jpg",
+                "Date": "21 June, 2021",
+                "Duration": "19.5 Hours",
+                "Instructor": "Juan E. Galvan & Ahmed Wael",
+                "Course_Link": "https://www.udemy.com/certificate/UC-adbd33c8-02aa-4302-9684-473d57ff3927/",
+                "width": "600px",
+                "height": "500px"
+            }, {
+                "Course": "The Complete Ethical Hacking Course<br>UDEMY",
+                "Image": "The_Complete_Ethical_Hacking_Course.jpg",
+                "Date": "25 September, 2022",
+                "Duration": "19.5 Hours",
+                "Instructor": "Joseph Delgadillo",
+                "Course_Link": "https://www.udemy.com/certificate/UC-adbd33c8-02aa-4302-9684-473d57ff3927/",
+                "width": "600px",
+                "height": "500px"
+            }
+        ]
+        var udemyLength = Object.keys(udemy).length;
+        //JSON Parsing
+        var subPageContent = document.createElement('p');
+        subPageContent.setAttribute('class', 'subPageContent');
+        udemy.forEach(udemy => {
+            course = udemy.Course;
+            image = udemy.Image;
+            endDate = udemy.Date;
+            course_link = udemy.Course_Link;
+            duration = udemy.Duration;
+            instructor = udemy.Instructor;
+            certificateWidth = udemy.width;
+            certificateHeight = udemy.height;
+
+            //creating div
+            var division = document.createElement('div');
+            //setting class attribute  for div tag
+            division.setAttribute('class', 'box');
+            division.style.width = certificateWidth;
+            division.style.height = certificateHeight;
+            // div's udemy
+            division.innerHTML = `
+                <div class="Inner">
+                    <div class="Front">
+                        <img src="${image}" alt="${course}" width="${certificateWidth}" height="${certificateHeight}">
+                    </div>
+                    <div class="Back">
+                        <h2>${course}</h2>
+                        <table>
+                            <tr>
+                                <th>Credential</th>
+                                <td>:</td>
+                                <td><a href="${course_link}" target="_blank">${course}</a></td>
+                            </tr>
+                            <tr>
+                                <th>Date</th>
+                                <td>:</td>
+                                <td>${endDate}</td>
+                            </tr>
+                            <tr>
+                                <th>Duration</th>
+                                <td>:</td>
+                                <td>${duration}</td>
+                            </tr>
+                            <tr>
+                                <th>Instructor</th>
+                                <td>:</td>
+                                <td>${instructor}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>`
+            //appending div
+            subPageContent.appendChild(division);
+        })
+        pageContent.appendChild(subPageContent);
+
+        //JSON
+        var gl = [
+            {
+                "Course": "Front End Development - HTML<br>Great Learning",
+                "Image": "Frontend_HTML_GL.jpg",
+                "Date": "October, 2023",
+                "Duration": "2 Hours",
+                "Instructor": "Mr. Faizan Parvez",
+                "width": "600px",
+                "height": "500px"
+            }, {
+                "Course": "Databse Normalization<br>Great Learning",
+                "Image": "Normalization_SQL_GL.jpg",
+                "Date": "October, 2023",
+                "Duration": "1 Hour",
+                "Instructor": "Raana Abdul Rehman",
+                "width": "600px",
+                "height": "500px"
+            }, {
+                "Course": "Joins in SQL<br>Great Learning",
+                "Image": "Joins_SQL.jpg",
+                "Date": "October, 2023",
+                "Duration": "1.5 Hours",
+                "Instructor": "Sampriti Chatterjee",
+                "width": "600px",
+                "height": "500px"
+            }, {
+                "Course": "Operators in SQL<br>Great Learning",
+                "Image": "Operators_in_SQL.jpg",
+                "Date": "October, 2023",
+                "Duration": "1.5 Hours",
+                "Instructor": "Sampriti Chatterjee",
+                "width": "600px",
+                "height": "500px"
+            }
+        ]
+        var glLength = Object.keys(gl).length;
+        //JSON Parsing
+        var subPageContent = document.createElement('p');
+        subPageContent.setAttribute('class', 'subPageContent');
+        gl.forEach(gl => {
+            course = gl.Course;
+            image = gl.Image;
+            endDate = gl.Date;
+            duration = gl.Duration;
+            instructor = gl.Instructor;
+            certificateWidth = gl.width;
+            certificateHeight = gl.height;
+
+            //creating div
+            var division = document.createElement('div');
+            //setting class attribute  for div tag
+            division.setAttribute('class', 'box');
+            division.style.width = certificateWidth;
+            division.style.height = certificateHeight;
+            // div's gl
+            division.innerHTML = `
+                <div class="Inner">
+                    <div class="Front">
+                        <img src="${image}" alt="${course}" width="${certificateWidth}" height="${certificateHeight}">
+                    </div>
+                    <div class="Back">
+                        <h2>${course}</h2>
+                        <table>
+                            <tr>
+                                <th>Date</th>
+                                <td>:</td>
+                                <td>${endDate}</td>
+                            </tr>
+                            <tr>
+                                <th>Duration</th>
+                                <td>:</td>
+                                <td>${duration}</td>
+                            </tr>
+                            <tr>
+                                <th>Instructor</th>
+                                <td>:</td>
+                                <td>${instructor}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>`
+            //appending div
+            subPageContent.appendChild(division);
+        })
+        pageContent.appendChild(subPageContent);
+
+        //JSON
+        var nptel = [
+            {
+                "Course": "Programming in Java<br>NPTEL",
+                "Image": "Programming_in_Java.jpg",
+                "StartDate": "January, 2022",
+                "EndDate": "April, 2022",
+                "Duration": "12 Weeks",
+                "Institute": "Indian Institute of Technology, Kharagpur",
+                "Score": "98%",
+                "Credits": 3,
+                "width": "500px",
+                "height": "600px"
+            },
+            {
+                "Course": "Programming in C++<br>NPTEL",
+                "Image": "Programming_in_C++.jpg",
+                "StartDate": "January, 2022",
+                "EndDate": "March, 2022",
+                "Duration": "8 Weeks",
+                "Institute": "Indian Institute of Technology, Kharagpur",
+                "Score": "99%",
+                "Credits": 2,
+                "width": "500px",
+                "height": "600px"
+            }, {
+                "Course": "Python for Data Science<br>NPTEL",
+                "Image": "Python_for_Data_Science.jpg",
+                "StartDate": "January, 2022",
+                "EndDate": "Feburary, 2022",
+                "Duration": "4 Weeks",
+                "Institute": "Indian Institute of Technology, Madras",
+                "Score": "85%",
+                "Credits": 1,
+                "width": "500px",
+                "height": "600px"
+            }
+        ]
+        var nptelLength = Object.keys(nptel).length;
+        //JSON Parsing
+        var subPageContent = document.createElement('p');
+        subPageContent.setAttribute('class', 'subPageContent');
+        nptel.forEach(nptel => {
+            course = nptel.Course;
+            image = nptel.Image;
+            startDate = nptel.StartDate;
+            endDate = nptel.EndDate;
+            duration = nptel.Duration;
+            institute = nptel.Institute;
+            score = nptel.Score;
+            credits = nptel.Credits;
+            certificateWidth = nptel.width;
+            certificateHeight = nptel.height;
+
+            //creating div
+            var division = document.createElement('div');
+            //setting class attribute  for div tag
+            division.setAttribute('class', 'box');
+            division.style.width = certificateWidth;
+            division.style.height = certificateHeight;
+            // div's nptel
+            division.innerHTML = `
+                <div class="Inner">
+                    <div class="Front">
+                        <img src="${image}" alt="${course}" width="${certificateWidth}" height="${certificateHeight}">
+                    </div>
+                    <div class="Back">
+                        <h2>${course}</h2>
+                        <table>
+                            <tr>
+                                <th>Start of course</th>
+                                <td>:</td>
+                                <td>${startDate}</td>
+                            </tr>
+                            <tr>
+                                <th>End of course</th>
+                                <td>:</td>
+                                <td>${endDate}</td>
+                            </tr>
+                            <tr>
+                                <th>Duration</th>
+                                <td>:</td>
+                                <td>${duration}</td>
+                            </tr>
+                            <tr>
+                                <th>Institute</th>
+                                <td>:</td>
+                                <td>${institute}</td>
+                            </tr>
+                            <tr>
+                                <th>Score</th>
+                                <td>:</td>
+                                <td>${score}</td>
+                            </tr>
+                            <tr>
+                                <th>Credits</th>
+                                <td>:</td>
+                                <td>${credits}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>`
+            //appending div
+            subPageContent.appendChild(division);
+        })
+        pageContent.appendChild(subPageContent);
+    </script>
+</body>
+
+</html>
