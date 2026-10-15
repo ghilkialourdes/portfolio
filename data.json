@@ -1,0 +1,752 @@
+{
+  "site": {
+    "title": "Hilkia Lourdes G — MERN Stack Developer",
+    "footer": "© Hilkia Lourdes G · All Rights Reserved"
+  },
+  "nav": {
+    "logoImage": "assets/images/logo12.png",
+    "logoName": "Hilkia Lourdes",
+    "links": [
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Experience",
+        "href": "#experience"
+      },
+      {
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills"
+      },
+      {
+        "label": "Education",
+        "href": "#education"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "resume": "assets/Hilkia_Lourdes_Resume.pdf"
+  },
+  "hero": {
+    "bgPhoto": "assets/images/workspace-photo2.png",
+    "bgPhotoLeft": "assets/images/Blazer1.png",
+    "bgPhotoRight": "assets/images/Chudi2.png",
+    "photo": "assets/images/workspace-photo.png",
+    "name": "Hilkia Lourdes",
+    "roleLine": {
+      "highlight": "Backend Developer",
+      "rest": " · Maticz Technologies Private Limited  · Madurai"
+    },
+    "description": "Building scalable web applications, RESTful APIs, and real-time systems with a passion for clean architecture and modern technology.",
+    "ctas": [
+      {
+        "label": "View Projects",
+        "href": "#projects",
+        "style": "primary"
+      },
+      {
+        "label": "Get in Touch",
+        "href": "#contact",
+        "style": "outline"
+      }
+    ],
+    "pills": [
+      {
+        "text": "MongoDB",
+        "dur": "4.2s",
+        "delay": "0s"
+      },
+      {
+        "text": "Express.js",
+        "dur": "5.1s",
+        "delay": "0.4s"
+      },
+      {
+        "text": "React.js",
+        "dur": "3.8s",
+        "delay": "0.8s"
+      },
+      {
+        "text": "Node.js",
+        "dur": "4.6s",
+        "delay": "1.2s"
+      },
+      {
+        "text": "Socket.IO",
+        "dur": "5.4s",
+        "delay": "0.2s"
+      },
+      {
+        "text": "Docker",
+        "dur": "3.9s",
+        "delay": "0.6s"
+      },
+      {
+        "text": "Web3",
+        "dur": "4.8s",
+        "delay": "1.0s"
+      },
+      {
+        "text": "JWT Auth",
+        "dur": "5.0s",
+        "delay": "0.9s"
+      },
+      {
+        "text": "REST APIs",
+        "dur": "4.3s",
+        "delay": "0.3s"
+      },
+      {
+        "text": "Python",
+        "dur": "3.7s",
+        "delay": "1.4s"
+      }
+    ]
+  },
+  "about": {
+    "photo": "assets/images/hl1.jpg",
+    "photoAlt": "Hilkia Lourdes G at work",
+    "stats": [
+      {
+        "num": "9.13",
+        "label": "CGPA · B.E. Computer Science",
+        "levDur": "5s",
+        "levDelay": "0s"
+      },
+      {
+        "num": "1+",
+        "label": "Years of Tech Experience",
+        "levDur": "6s",
+        "levDelay": "1s"
+      },
+      {
+        "num": "7+",
+        "label": "Projects Delivered",
+        "levDur": "7s",
+        "levDelay": "2s"
+      }
+    ],
+    "paragraphs": [
+      "I’m a <strong>Full Stack Developer</strong> currently working as a <strong>Backend Developer at Maticz Technologies Private Limited</strong>, where I build scalable backend services and enterprise applications using <strong>Node.js, Express.js, and MongoDB</strong>.",
+      "I have hands-on experience building and delivering <strong>7+ real-world applications</strong> across domains including <strong>HRMS, FinTech, Cryptocurrency trading, ride-booking, Web3, and blockchain/token launchpad platforms</strong>. My experience spans both frontend and backend development, with a strong foundation in the <strong>MERN Stack</strong>.",
+      "My core technical expertise includes <strong>React.js, Node.js, Express.js, MongoDB, RESTful APIs, Redux, Socket.IO, and Web3</strong>. I have practical experience in <strong>backend development, authentication and authorization, database design, API integration, real-time communication, and business logic implementation</strong>.",
+      "I enjoy solving complex technical problems, debugging applications across the frontend and backend, and building <strong>scalable, maintainable, and production-ready solutions</strong>. I also work with <strong>MongoDB/Mongoose, Redis, Git, Postman, PM2, and Linux</strong>, and continuously strengthen my skills by working with modern technologies and AI-assisted development tools.",
+      "I hold a <strong>B.E. in Computer Science and Engineering from Sethu Institute of Technology</strong>, with a <strong>CGPA of 9.133</strong>. I’m passionate about continuous learning, hands-on development, and creating reliable software solutions that solve real-world problems."
+    ],
+    "info": [
+      {
+        "icon": "location",
+        "label": "Location",
+        "value": "Madurai, Tamil Nadu"
+      },
+      {
+        "icon": "email",
+        "label": "Email",
+        "value": "ghilkialourdes@gmail.com",
+        "href": "mailto:ghilkialourdes@gmail.com"
+      },
+      {
+        "icon": "phone",
+        "label": "Phone",
+        "value": "+91 8946050196"
+      },
+      {
+        "icon": "linkedin",
+        "label": "LinkedIn",
+        "value": "g-hilkia-lourdes",
+        "href": "https://linkedin.com/in/g-hilkia-lourdes"
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "company": "Maticz Technologies Private Limited",
+        "logo": "assets/company/maticz.png",
+        "role": "Full Stack Developer I",
+        "current": false,
+        "date": "May 2025 - September 2026",
+        "bullets": [
+          "Developed and maintained scalable full-stack web applications using React.js, Node.js, Express.js, and MongoDB.",
+          "Designed and implemented RESTful APIs, backend business logic, database schemas, validations, and authentication workflows.",
+          "Worked on cryptocurrency, blockchain, trading, and fintech-related platforms, including admin panels and user-facing applications.",
+          "Developed and integrated wallet connectivity, blockchain RPCs, smart-contract interactions, token/presale functionality, and transaction workflows.",
+          "Built responsive and reusable React.js UI components and integrated Redux for application state management.",
+          "Implemented and maintained MongoDB/Mongoose queries, aggregation pipelines, population, pagination, filtering, and data management.",
+          "Integrated third-party APIs and services for market data, currency conversion, notifications, and other platform functionalities.",
+          "Debugged and resolved production and development issues involving Node.js, React, MongoDB, Redis, RabbitMQ, and deployment environments.",
+          "Worked with Git, PM2, Postman, MongoDB Compass, Redis, and Linux/Ubuntu for development, testing, and deployment.",
+          "Collaborated with team members to analyze requirements, develop features, perform testing, troubleshoot issues, and deliver production-ready solutions."
+        ]
+      },
+      {
+        "company": "Great Innovus Solution Inc.",
+        "logo": "assets/company/great_innovus.png",
+        "role": "Trainee",
+        "current": false,
+        "date": "Feb – Mar 2023",
+        "bullets": [
+          "Gained hands-on experience with ERP customization using Microsoft Dynamics 365 Business Central.",
+          "Assisted in configuring modules for finance, inventory, and business workflows."
+        ],
+        "certificate": "assets/experience/GreatInnovus_Intern.jpg"
+      },
+      {
+        "company": "ZOHO Corporation Private Limited",
+        "logo": "assets/company/zoho.png",
+        "role": "Project Trainee",
+        "current": false,
+        "date": "Sep – Nov 2022",
+        "bullets": [
+          "Developed responsive UI components using HTML, CSS, and JavaScript for internal web applications.",
+          "Assisted in implementing Zoho Books API integration for inventory management features."
+        ],
+        "certificate": "assets/experience/ZOHO_Intern.jpg"
+      },
+      {
+        "company": "ALTTC – Advance Level Telecom Training Centre",
+        "logo": "assets/company/alttc.png",
+        "role": "Intern",
+        "current": false,
+        "date": "Jul – Aug 2021",
+        "bullets": [
+          "Acquired knowledge in telecom networking, data communication protocols, and cybersecurity fundamentals."
+        ],
+        "certificate": "assets/experience/BSNL_Intern.jpg"
+      },
+      {
+        "company": "ELROI Software Solutions",
+        "logo": "assets/company/elroi.png",
+        "role": "Intern",
+        "current": false,
+        "date": "Oct 2020",
+        "bullets": [
+          "Learned modern web design principles and built responsive pages using HTML, CSS, and responsive design."
+        ],
+        "certificate": "assets/experience/ELROI_Intern.jpg"
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "domain": "MERN Stack · HRMS & Employee Management System",
+        "title": "H'MDAL",
+        "bullets": [
+          "Developed and maintained an HRMS platform for managing employee attendance, leave, permissions, and employee activities.",
+          "Implemented employee attendance and punch tracking with check-in, check-out, and last-punched information.",
+          "Developed leave and permission management workflows, including request, approval, and status tracking.",
+          "Implemented JWT-based authentication and authorization with role-based access control for different user types.",
+          "Added device validation and multi-device detection to control authenticated access across devices.",
+          "Developed real-time functionality using Socket.IO for instant updates and communication.",
+          "Implemented CSV-based attendance/punch report generation for employee attendance data.",
+          "Developed and integrated RESTful APIs using Node.js and Express.js for employee, attendance, leave, and administrative modules.",
+          "Used MongoDB and Mongoose for schema design, querying, population, filtering, pagination, and data management.",
+          "Worked on an Electron.js desktop application to provide HRMS functionality in a desktop environment.",
+          "Debugged and resolved frontend, backend, database, authentication, and real-time communication issues."
+        ],
+        "tech": [
+          "React.js",
+          "Node.js",
+          "MongoDB",
+          "Socket.IO",
+          "Electron.js",
+          "JWT"
+        ]
+      },
+      {
+        "domain": "MERN Stack · Token Presale & Launchpad Platform",
+        "title": "Galfi Launchpad",
+        "bullets": [
+          "Developed backend functionality for a token presale and launchpad platform.",
+          "Implemented presale creation and management, including start/end time validation and presale status handling.",
+          "Developed investor presale participation workflows supporting wallet-based payment methods.",
+          "Implemented validation for presale allocation, minimum/maximum purchase limits, payment methods, and transaction-related data.",
+          "Developed token vesting configuration supporting cliff periods, vesting duration, and configurable vesting intervals.",
+          "Implemented backend validation to prevent overlapping presale periods.",
+          "Worked on wallet connectivity and blockchain transaction workflows for investor participation.",
+          "Designed MongoDB/Mongoose schemas and implemented database queries for users, presales, participants, transactions, and vesting information.",
+          "Developed and integrated REST APIs between the frontend, backend, and blockchain-related services.",
+          "Implemented robust request validation and error handling for presale and investment workflows.",
+          "Worked on admin and user-side functionality for managing and monitoring token sales."
+        ],
+        "tech": [
+          "React.js",
+          "Redux",
+          "Node.js",
+          "Web3",
+          "MongoDB",
+          "Socket.IO",
+          "REST APIs",
+          "RabbitMQ",
+          "Wallet Integration",
+          "Postman",
+          "GIT"
+        ]
+      },
+      {
+        "domain": "MERN Stack · Cryptocurrency Trading Platform",
+        "title": "Green Exchange",
+        "bullets": [
+          "Developed features for a cryptocurrency trading platform supporting digital asset trading workflows.",
+          "Built responsive and reusable React.js components for trading and administrative interfaces.",
+          "Integrated TradingView charts to provide interactive market price and trading visualization.",
+          "Developed backend REST APIs using Node.js and Express.js for trading-related modules.",
+          "Implemented user authentication and authorization across trading platform modules.",
+          "Worked with Web3 and blockchain integrations for wallet connectivity and blockchain-based operations.",
+          "Implemented wallet-related workflows including wallet connection, network/chain configuration, and wallet state management.",
+          "Used MongoDB/Mongoose for managing users, transactions, trading-related data, and platform records.",
+          "Integrated real-time communication functionality for platform updates and chat-related features.",
+          "Implemented filtering, pagination, validation, and error handling across API-driven modules.",
+          "Troubleshot and resolved frontend, backend, API integration, and blockchain connectivity issues."
+        ],
+        "tech": [
+          "React.js",
+          "Redux",
+          "Node.js",
+          "TradingView",
+          "Web3",
+          "MongoDB",
+          "Socket.IO",
+          "REST APIs",
+          "Postman",
+          "GIT"
+        ]
+      },
+      {
+        "domain": "MERN Stack · Ride Booking Platform",
+        "title": "K-Ride",
+        "bullets": [
+          "Developed a ride-booking platform for managing users, rides, and transportation-related workflows.",
+          "Developed frontend interfaces using React.js with reusable components and responsive layouts.",
+          "Used Redux for centralized state management and handling application-level data.",
+          "Developed RESTful APIs using Node.js and Express.js for authentication, user management, and ride-related operations.",
+          "Implemented authentication and authorization for different user workflows.",
+          "Designed and maintained MongoDB/Mongoose schemas for application data management.",
+          "Implemented API-side validation, error handling, filtering, and data processing.",
+          "Integrated frontend components with backend APIs and handled asynchronous application workflows.",
+          "Used Docker for application containerization and environment setup.",
+          "Debugged and resolved application issues across the frontend, backend, API, and database layers."
+        ],
+        "tech": [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Docker",
+          "React Native",
+          "Redux",
+          "REST APIs",
+          "Postman",
+          "GIT"
+        ]
+      },
+      {
+        "domain": "MERN Stack · Betting Application",
+        "title": "Betting Solana",
+        "bullets": [
+          "Developed features for a blockchain-based betting platform built on the Solana network.",
+          "Implemented Solana wallet integration for connecting users with the blockchain application.",
+          "Worked with Solana Web3.js for blockchain communication and transaction-related operations.",
+          "Implemented wallet and transaction validation to verify blockchain transaction details before processing platform operations.",
+          "Developed backend RESTful APIs using Node.js and Express.js for betting and user-related functionality.",
+          "Designed MongoDB/Mongoose models for managing users, betting records, transactions, and platform data.",
+          "Implemented transaction-related business logic connecting blockchain activity with backend application records.",
+          "Developed real-time functionality using Socket.IO for dynamic platform updates.",
+          "Implemented request validation, error handling, and transaction-status processing.",
+          "Debugged blockchain RPC, wallet connectivity, API, database, and frontend integration issues."
+        ],
+        "tech": [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "Solana Web3",
+          "Postman",
+          "GIT"
+        ]
+      },
+      {
+        "domain": "Internet of Things · Agriculture",
+        "title": "AGROFLORE",
+        "bullets": [
+          "Developed an IoT-based smart farming application for real-time monitoring of soil moisture, temperature, humidity, and soil conditions.",
+          "Implemented an automated irrigation system using sensor data to control the water pump based on soil moisture levels.",
+          "Built modules for plant information, disease management, greenhouse plants, weather monitoring, and farming assistance.",
+          "Integrated Weather API to display current weather conditions and a 3-day forecast.",
+          "Used ThingSpeak to collect and visualize irrigation and soil-monitoring data remotely.",
+          "Developed sensor-data processing using Python, including serial communication, data logging, and CSV generation.",
+          "Created a cross-platform mobile application to provide farmers with real-time agricultural information and monitoring.",
+          "Implemented real-time sensor data acquisition from Arduino-based sensors and transmitted the data for remote monitoring.",
+          "Configured Wi-Fi connectivity using ESP8266 to transmit sensor readings to the cloud-based monitoring platform.",
+          "Automated irrigation by configuring relay-based pump control, switching the water pump ON/OFF according to predefined soil-moisture conditions.",
+          "Implemented serial communication between Arduino and Python to capture, process, and store sensor readings.",
+          "Stored sensor readings with date and time information in CSV format, enabling historical monitoring and analysis.",
+          "Integrated ThingSpeak APIs for cloud-based sensor-data transmission and graphical visualization of irrigation and soil-monitoring parameters.",
+          "Designed the application to provide farmers with plant-specific information, including scientific name, soil type, moisture level, pH, harvesting period, and fertilizer details.",
+          "Developed a disease-management module containing information about plant diseases, pests, damage, contributing factors, and host plants."
+        ],
+        "tech": [
+          "Python",
+          "Flutter",
+          "Dart",
+          "Firebase",
+          "Python",
+          "Arduino UNO",
+          "Embedded C/C++",
+          "ThingSpeak",
+          "REST APIs",
+          "IoT Sensors",
+          "RF Communication",
+          "Weather API"
+        ]
+      },
+      {
+        "domain": "Full Stack · ERP",
+        "title": "Zoho Books Integration",
+        "bullets": [
+          "Developed a web-based interface for Zoho Books item management using HTML, CSS, and JavaScript.",
+          "Implemented functionality to list, add, and update item details through the Zoho Books API.",
+          "Integrated Zoho Books REST APIs to retrieve and modify item information such as item name, rate, retail price, and wholesale price.",
+          "Built a Node.js and Express.js backend to handle API requests and communicate with Zoho Books services.",
+          "Implemented OAuth-based authentication to obtain access tokens for secure API communication.",
+          "Developed a bulk-update workflow that allows users to select multiple items and update their pricing details in a single operation.",
+          "Used JavaScript Fetch API and asynchronous operations to exchange data between the frontend and backend.",
+          "Implemented dynamic HTML table generation to display API response data and provide editable item fields.",
+          "Used Postman to test and validate API requests, responses, and endpoints during development.",
+          "Added frontend loading/preloader functionality to improve the user experience during API operations.",
+          "Implemented CORS configuration and JSON request handling in the Node.js backend for frontend-backend communication.",
+          "Worked on customer-specific product customization requirements, translating functional requirements into frontend components and API-driven features."
+        ],
+        "tech": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Fetch API",
+          "DOM Manipulation",
+          "Node.js",
+          "Express.js",
+          "REST API",
+          "CORS",
+          "Zoho Books API",
+          "OAuth 2.0",
+          "Postman"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "items": [
+      {
+        "icon": "assets/skill/react.png",
+        "name": "React.js"
+      },
+      {
+        "icon": "assets/skill/node.png",
+        "name": "Node.js"
+      },
+      {
+        "icon": "assets/skill/mongodb.png",
+        "name": "MongoDB"
+      },
+      {
+        "icon": "assets/skill/express.png",
+        "name": "Express.js"
+      },
+      {
+        "icon": "assets/skill/python.png",
+        "name": "Python"
+      },
+      {
+        "icon": "assets/skill/javascript.png",
+        "name": "JavaScript"
+      },
+      {
+        "icon": "assets/skill/reactUX.png",
+        "name": "React/UX"
+      },
+      {
+        "icon": "assets/skill/docker.png",
+        "name": "Docker"
+      },
+      {
+        "icon": "assets/skill/redux.png",
+        "name": "Redux"
+      },
+      {
+        "icon": "assets/skill/socket.png",
+        "name": "Socket.IO"
+      },
+      {
+        "icon": "assets/skill/mySQL.png",
+        "name": "MySQL"
+      },
+      {
+        "icon": "assets/skill/oracleSQL.png",
+        "name": "Oracle SQL"
+      },
+      {
+        "icon": "assets/skill/electron.png",
+        "name": "Electron.js"
+      },
+      {
+        "icon": "assets/skill/web3.png",
+        "name": "Web3"
+      },
+      {
+        "icon": "assets/skill/rabbitMQ.png",
+        "name": "RabbitMQ"
+      },
+      {
+        "icon": "assets/skill/postman.png",
+        "name": "Postman"
+      },
+      {
+        "icon": "assets/skill/git.png",
+        "name": "GIT"
+      },
+      {
+        "icon": "assets/skill/embeddedC.png",
+        "name": "Embedded C"
+      },
+      {
+        "icon": "assets/skill/c.png",
+        "name": "C"
+      },
+      {
+        "icon": "assets/skill/c++.png",
+        "name": "C++"
+      },
+      {
+        "icon": "assets/skill/authorization.png",
+        "name": "Authorization"
+      },
+      {
+        "icon": "assets/skill/authentication.png",
+        "name": "Authentication"
+      },
+      {
+        "icon": "assets/skill/restAPI.png",
+        "name": "Rest API"
+      },
+      {
+        "icon": "assets/skill/APIintegration.png",
+        "name": "API Integration"
+      },
+      {
+        "icon": "assets/skill/chatGPT.png",
+        "name": "ChatGPT"
+      },
+      {
+        "icon": "assets/skill/claude.png",
+        "name": "Claude"
+      },
+      {
+        "icon": "assets/skill/co-pilot.png",
+        "name": "Co-Pilot"
+      }
+    ]
+  },
+  "certifications": {
+    "items": [
+      {
+        "title": "Python for Data Science",
+        "issuer": "NPTEL Online Certification",
+        "certificate": "assets/certificate/nptel_Data_Science.jpg"
+      },
+      {
+        "title": "Programming in C++",
+        "issuer": "NPTEL Online Certification",
+        "certificate": "assets/certificate/nptel_C++.jpg"
+      },
+      {
+        "title": "Programming in Java",
+        "issuer": "NPTEL Online Certification",
+        "certificate": "assets/certificate/nptel_Java.jpg"
+      },
+      {
+        "title": "Operators in MySQL",
+        "issuer": "Great Learning",
+        "certificate": "assets/certificate/GreatLearning_Operators_in_SQL.jpg"
+      },
+      {
+        "title": "Front End Development - HTML",
+        "issuer": "Great Learning",
+        "certificate": "assets/certificate/GreatLearning_Front_End_Development_HTML.jpg"
+      },
+      {
+        "title": "Joins in SQL",
+        "issuer": "Great Learning",
+        "certificate": "assets/certificate/GreatLearning_Joins_in_SQL.jpg"
+      },
+      {
+        "title": "Database Normalization",
+        "issuer": "Great Learning",
+        "certificate": "assets/certificate/GreatLearning_Database_Normalization.jpg"
+      },
+      {
+        "title": "SQL Intermediate",
+        "issuer": "sololearn",
+        "certificate": "assets/certificate/Sololearn SQL.jpg"
+      },
+      {
+        "title": "Generative AI Landscape",
+        "issuer": "Infosys - Springboard",
+        "certificate": "assets/certificate/Infosys_Generative_AI_Landscape.pdf"
+      },
+      {
+        "title": "Introduction to SQL",
+        "issuer": "Simplilearn SkillUP",
+        "certificate": "assets/certificate/Simplilearn_Introduction_to_SQL.pdf"
+      },
+      {
+        "title": "Power BI for Beginners",
+        "issuer": "Simplilearn SkillUP",
+        "certificate": "assets/certificate/Simplilearn_Power_BI_for_Beginners.pdf"
+      },
+      {
+        "title": "Oracle MySQL",
+        "issuer": "Oracle Learning Explorer (Badge)",
+        "certificate": "assets/certificate/Oracle_MySQL.png"
+      },
+      {
+        "title": "Oracle HCM Cloud - Global Human Resources",
+        "issuer": "Oracle Learning Explorer (Badge)",
+        "certificate": "assets/certificate/Oracle_HCM_Cloud_Global_HR.png"
+      },
+      {
+        "title": "Oracle HCM Cloud - Absence Management",
+        "issuer": "Oracle Learning Explorer (Badge)",
+        "certificate": "assets/certificate/Oracle_HCM_Cloud_Absence_Management.png"
+      },
+      {
+        "title": "A Trivia Quiz on Types Of Computers!",
+        "issuer": "ProProfs",
+        "certificate": "assets/certificate/ProProfs_Types_Of_Computers.jpg"
+      },
+      {
+        "title": "Introduction to Operating System",
+        "issuer": "ProProfs",
+        "certificate": "assets/certificate/ProProfs_Introduction to Operating System.jpg"
+      },
+      {
+        "title": "Fundamentals of Computers",
+        "issuer": "St.Joseph University, Nagaland - 797115",
+        "certificate": "assets/certificate/Quiz_Fundamentals_of_Computers.jpg"
+      },
+      {
+        "title": "Graph Theory",
+        "issuer": "St.Joseph University, Nagaland - 797115",
+        "certificate": "assets/certificate/Quiz_Graph_Theory.jpg"
+      },
+      {
+        "title": "C Programming",
+        "issuer": "St.Joseph University, Nagaland - 797115",
+        "certificate": "assets/certificate/Quiz_C_Programming.jpg"
+      },
+      {
+        "title": "Logical Reasoning",
+        "issuer": "St.Joseph University, Nagaland - 797115",
+        "certificate": "assets/certificate/Quiz_Logical_Reasoning.jpg"
+      },
+      {
+        "title": "5 Hours of Web Development - Advanced Level",
+        "issuer": "ALPHITE LEARNINGS",
+        "certificate": "assets/certificate/ALPHITE_LEARNINGS.jpg"
+      },
+      {
+        "title": "The Complete Ethical Hacking Course",
+        "issuer": "Udemy",
+        "certificate": "assets/certificate/Udemy_The_Complete_Ethical_Hacking_Course.jpg"
+      },
+      {
+        "title": "2021 Python Programming From A-Z: Beginner To Expert Course",
+        "issuer": "Udemy",
+        "certificate": "assets/certificate/Udemy_Python_Programming.jpg"
+      },
+      {
+        "title": "AutoTech 2020 - Emerging Trends in Automotive Engineering",
+        "issuer": "P.S.R. Engineering College, Sivakasi",
+        "certificate": "assets/certificate/Emerging_Trends_in_Automotive_Engineering.jpg"
+      },
+      {
+        "title": "Python Quiz",
+        "issuer": "Sethu Institue of Technology, Virudhunagar",
+        "certificate": "assets/certificate/Python_Quiz.jpg"
+      }
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "year": "2019 – 2023",
+        "degree": "Bachelor of Engineering",
+        "stream": "Computer Science & Engineering",
+        "school": "Sethu Institute of Technology, Virudhunagar",
+        "scoreLabel": "CGPA: 9.133 / 10",
+        "scorePercent": 91.33
+      },
+      {
+        "year": "2018 – 2019",
+        "degree": "Grade XII",
+        "stream": "Higher Secondary Education",
+        "school": "St. Joseph's Matriculation Higher Secondary School, Madurai",
+        "scoreLabel": "71.17%",
+        "scorePercent": 71.17
+      },
+      {
+        "year": "2017 – 2018",
+        "degree": "Grade XI",
+        "stream": "Higher Secondary Education",
+        "school": "St. Joseph's Matriculation Higher Secondary School, Madurai",
+        "scoreLabel": "73.67%",
+        "scorePercent": 73.67
+      },
+      {
+        "year": "2016 – 2017",
+        "degree": "Grade X",
+        "stream": "Secondary School Education",
+        "school": "St. Joseph's Matriculation Higher Secondary School, Madurai",
+        "scoreLabel": "91.2%",
+        "scorePercent": 91.2
+      }
+    ]
+  },
+  "contact": {
+    "bgPhotoLeft": "assets/images/Chudi8.jpeg",
+    "bgPhotoRight": "assets/images/workspace-photo2.png",
+    "blurb": "Open to full-stack and backend opportunities. Let's build something remarkable together.",
+    "links": [
+      {
+        "icon": "email",
+        "label": "Email Me",
+        "href": "https://mail.google.com/mail/?view=cm&fs=1&to=ghilkialourdes@gmail.com&su=Hello%20from%20your%20portfolio",
+        "external": true
+      },
+      {
+        "icon": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/g-hilkia-lourdes-ba308b1a0",
+        "external": true
+      },
+      {
+        "icon": "phone",
+        "label": "Call",
+        "href": "tel:+918946050196"
+      },
+      {
+        "icon": "whatsapp",
+        "label": "WhatsApp",
+        "href": "https://wa.me/918946050196?text=Hi%20Hilkia%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect.",
+        "external": true
+      }
+    ]
+  }
+}
